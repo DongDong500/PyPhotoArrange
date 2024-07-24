@@ -1,2 +1,2 @@
 # PyPhotoArrange
-photo arrange program in python.
+photo arrange program in python
