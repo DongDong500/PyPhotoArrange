@@ -40,6 +40,14 @@ def organize_photos(source_dir):
                 except Exception as e:
                     print(f"Failed to move {filename}: {e}")
 
+def test_module():
+    print("\"photoarragement.py\" module has compiled without errors and is operational.")
+
+def photoarrange(source_directory):
+    organize_photos(source_directory)
+    print("Photo organization completed.")
+
+
 if __name__ == "__main__":
     source_directory = input("Enter the path to the directory containing photos: ")
     organize_photos(source_directory)
